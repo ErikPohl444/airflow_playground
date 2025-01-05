@@ -1,0 +1,31 @@
+[2025-01-05T17:44:06.329+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-05T17:44:06.346+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing2_vsc.extract_user scheduled__2025-01-05T17:43:00+00:00 [queued]>
+[2025-01-05T17:44:06.356+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing2_vsc.extract_user scheduled__2025-01-05T17:43:00+00:00 [queued]>
+[2025-01-05T17:44:06.356+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-05T17:44:06.369+0000] {taskinstance.py:2889} INFO - Executing <Task(HttpOperator): extract_user> on 2025-01-05 17:43:00+00:00
+[2025-01-05T17:44:06.375+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4944) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-05T17:44:06.376+0000] {standard_task_runner.py:72} INFO - Started process 4946 to run task
+[2025-01-05T17:44:06.378+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing2_vsc', 'extract_user', 'scheduled__2025-01-05T17:43:00+00:00', '--job-id', '200', '--raw', '--subdir', 'DAGS_FOLDER/user_dag.py', '--cfg-path', '/tmp/tmpwvru96ck']
+[2025-01-05T17:44:06.378+0000] {standard_task_runner.py:105} INFO - Job 200: Subtask extract_user
+[2025-01-05T17:44:06.421+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing2_vsc.extract_user scheduled__2025-01-05T17:43:00+00:00 [running]> on host cab0b5f06594
+[2025-01-05T17:44:06.237+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing2_vsc' AIRFLOW_CTX_TASK_ID='extract_user' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-05T17:43:00+00:00'
+[2025-01-05T17:44:06.237+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-05T17:44:06.238+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-05T17:44:06.238+0000] {logging_mixin.py:190} INFO - Current task name:extract_user state:running start_date:2025-01-05 17:44:06.346709+00:00
+[2025-01-05T17:44:06.238+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc and current dag run status:running
+[2025-01-05T17:44:06.238+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-05T17:44:06.238+0000] {http.py:175} INFO - Calling HTTP method
+[2025-01-05T17:44:06.245+0000] {base.py:84} INFO - Retrieving connection 'user_api'
+[2025-01-05T17:44:06.250+0000] {base.py:84} INFO - Retrieving connection 'user_api'
+[2025-01-05T17:44:06.421+0000] {http.py:236} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Sofia","last":"Hamalainen"},"location":{"street":{"number":5268,"name":"Rotuaari"},"city":"Ilomantsi","state":"Satakunta","country":"Finland","postcode":75893,"coordinates":{"latitude":"-22.4741","longitude":"138.8072"},"timezone":{"offset":"+3:00","description":"Baghdad, Riyadh, Moscow, St. Petersburg"}},"email":"sofia.hamalainen@example.com","login":{"uuid":"e1588b2a-bcea-4146-aac8-4a4d6fe0d945","username":"orangefish680","password":"scotty","salt":"X5OfqAhO","md5":"098a8bac066b1ccf8caeb54d46045f3e","sha1":"1cc8f5314b911abb58050b6f53878063e03b73e2","sha256":"592c1b8f1877b6ca041606475351151e87aa01fb19f11df589b088e9c20cec24"},"dob":{"date":"1961-08-08T00:08:53.614Z","age":63},"registered":{"date":"2019-06-13T07:57:49.201Z","age":5},"phone":"09-808-523","cell":"044-197-90-04","id":{"name":"HETU","value":"NaNNA900undefined"},"picture":{"large":"https://randomuser.me/api/portraits/women/41.jpg","medium":"https://randomuser.me/api/portraits/med/women/41.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/41.jpg"},"nat":"FI"}],"info":{"seed":"602c6d57b08de1b7","results":1,"page":1,"version":"1.4"}}
+[2025-01-05T17:44:06.447+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-05T17:44:06.447+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing2_vsc, task_id=extract_user, run_id=scheduled__2025-01-05T17:43:00+00:00, execution_date=20250105T174300, start_date=20250105T174406, end_date=20250105T174406
+[2025-01-05T17:44:06.457+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-05T17:44:06.457+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-05T17:44:06.458+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc queued_at:2025-01-05 17:44:00.545948+00:00
+[2025-01-05T17:44:06.458+0000] {logging_mixin.py:190} INFO - Task hostname:cab0b5f06594 operator:HttpOperator
+[2025-01-05T17:44:06.479+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-05T17:44:06.502+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-05T17:44:06.505+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

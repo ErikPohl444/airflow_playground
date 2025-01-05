@@ -1,0 +1,33 @@
+[2025-01-05T17:21:30.071+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-05T17:21:30.085+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing2_vsc.process_user scheduled__2025-01-05T17:17:00+00:00 [queued]>
+[2025-01-05T17:21:30.091+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing2_vsc.process_user scheduled__2025-01-05T17:17:00+00:00 [queued]>
+[2025-01-05T17:21:30.091+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-05T17:21:30.104+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_user> on 2025-01-05 17:17:00+00:00
+[2025-01-05T17:21:30.111+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4419) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-05T17:21:30.112+0000] {standard_task_runner.py:72} INFO - Started process 4424 to run task
+[2025-01-05T17:21:30.115+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing2_vsc', 'process_user', 'scheduled__2025-01-05T17:17:00+00:00', '--job-id', '155', '--raw', '--subdir', 'DAGS_FOLDER/user_dag.py', '--cfg-path', '/tmp/tmpos8ri_2d']
+[2025-01-05T17:21:30.116+0000] {standard_task_runner.py:105} INFO - Job 155: Subtask process_user
+[2025-01-05T17:21:30.159+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing2_vsc.process_user scheduled__2025-01-05T17:17:00+00:00 [running]> on host cab0b5f06594
+[2025-01-05T17:21:30.232+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing2_vsc' AIRFLOW_CTX_TASK_ID='process_user' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T17:17:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-05T17:17:00+00:00'
+[2025-01-05T17:21:30.233+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-05T17:21:30.234+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-05T17:21:30.234+0000] {logging_mixin.py:190} INFO - Current task name:process_user state:running start_date:2025-01-05 17:21:30.085397+00:00
+[2025-01-05T17:21:30.234+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc and current dag run status:running
+[2025-01-05T17:21:30.234+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-05T17:21:30.255+0000] {logging_mixin.py:190} INFO -   firstname lastname  ... password                     email
+0    Jasmin    Morel  ...    goats  jasmin.morel@example.com
+
+[1 rows x 6 columns]
+[2025-01-05T17:21:30.257+0000] {logging_mixin.py:190} INFO - File exists!
+[2025-01-05T17:21:30.258+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-05T17:21:30.265+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-05T17:21:30.266+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing2_vsc, task_id=process_user, run_id=scheduled__2025-01-05T17:17:00+00:00, execution_date=20250105T171700, start_date=20250105T172130, end_date=20250105T172130
+[2025-01-05T17:21:30.273+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-05T17:21:30.273+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-05T17:21:30.273+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc queued_at:2025-01-05 17:18:00.058853+00:00
+[2025-01-05T17:21:30.273+0000] {logging_mixin.py:190} INFO - Task hostname:cab0b5f06594 operator:PythonOperator
+[2025-01-05T17:21:30.299+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-05T17:21:30.316+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-05T17:21:30.318+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

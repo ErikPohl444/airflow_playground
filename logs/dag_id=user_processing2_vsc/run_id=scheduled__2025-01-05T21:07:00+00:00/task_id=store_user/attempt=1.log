@@ -1,0 +1,32 @@
+[2025-01-05T21:08:44.909+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-05T21:08:44.921+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing2_vsc.store_user scheduled__2025-01-05T21:07:00+00:00 [queued]>
+[2025-01-05T21:08:44.928+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing2_vsc.store_user scheduled__2025-01-05T21:07:00+00:00 [queued]>
+[2025-01-05T21:08:44.928+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-05T21:08:44.940+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): store_user> on 2025-01-05 21:07:00+00:00
+[2025-01-05T21:08:44.947+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5834) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-05T21:08:44.948+0000] {standard_task_runner.py:72} INFO - Started process 5836 to run task
+[2025-01-05T21:08:44.949+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing2_vsc', 'store_user', 'scheduled__2025-01-05T21:07:00+00:00', '--job-id', '263', '--raw', '--subdir', 'DAGS_FOLDER/user_dag.py', '--cfg-path', '/tmp/tmp2l3imizd']
+[2025-01-05T21:08:44.950+0000] {standard_task_runner.py:105} INFO - Job 263: Subtask store_user
+[2025-01-05T21:08:44.987+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing2_vsc.store_user scheduled__2025-01-05T21:07:00+00:00 [running]> on host cab0b5f06594
+[2025-01-05T21:08:45.235+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing2_vsc' AIRFLOW_CTX_TASK_ID='store_user' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T21:07:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-05T21:07:00+00:00'
+[2025-01-05T21:08:45.236+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-05T21:08:45.236+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-05T21:08:45.236+0000] {logging_mixin.py:190} INFO - Current task name:store_user state:running start_date:2025-01-05 21:08:44.922143+00:00
+[2025-01-05T21:08:45.236+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc and current dag run status:running
+[2025-01-05T21:08:45.236+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-05T21:08:45.237+0000] {logging_mixin.py:190} INFO - File exists!
+[2025-01-05T21:08:45.237+0000] {logging_mixin.py:190} INFO - Tanvi,Sullad,India,goldenmouse806,bowling,tanvi.sullad@example.com
+[2025-01-05T21:08:45.237+0000] {postgres.py:204} INFO - Running copy expert: COPY users FROM stdin WITH DELIMITER as ',', filename: /tmp/processed_user.csv
+[2025-01-05T21:08:45.244+0000] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-01-05T21:08:45.250+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-05T21:08:45.258+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-05T21:08:45.259+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing2_vsc, task_id=store_user, run_id=scheduled__2025-01-05T21:07:00+00:00, execution_date=20250105T210700, start_date=20250105T210844, end_date=20250105T210845
+[2025-01-05T21:08:45.268+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-05T21:08:45.269+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-05T21:08:45.269+0000] {logging_mixin.py:190} INFO - Dag name:user_processing2_vsc queued_at:2025-01-05 21:08:35.806556+00:00
+[2025-01-05T21:08:45.269+0000] {logging_mixin.py:190} INFO - Task hostname:cab0b5f06594 operator:PythonOperator
+[2025-01-05T21:08:45.314+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-05T21:08:45.332+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-05T21:08:45.336+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

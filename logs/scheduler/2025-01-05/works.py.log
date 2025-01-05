@@ -5844,3 +5844,122 @@ AttributeError: module 'airflow.providers.http.operators.http' has no attribute 
 [2025-01-05T21:22:33.051+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:22:33.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-05T21:22:33.067+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:22:33.067+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
 [2025-01-05T21:22:33.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.060 seconds
+[2025-01-05T21:23:03.183+0000] {processor.py:186} INFO - Started process (PID=50450) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:23:03.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:23:03.185+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:03.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:23:03.189+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:23:03.209+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:03.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:23:03.228+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:03.228+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:23:03.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.066 seconds
+[2025-01-05T21:23:51.902+0000] {processor.py:186} INFO - Started process (PID=50453) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:23:51.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:23:51.903+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:51.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:23:51.908+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:23:51.925+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:51.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:23:51.942+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:51.942+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:23:51.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.062 seconds
+[2025-01-05T21:23:58.072+0000] {processor.py:186} INFO - Started process (PID=50582) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:23:58.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:23:58.075+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:58.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:23:58.084+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:23:58.101+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:58.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:23:58.118+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:23:58.117+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:23:58.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.072 seconds
+[2025-01-05T21:24:29.133+0000] {processor.py:186} INFO - Started process (PID=50646) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:24:29.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:24:29.135+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:24:29.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:24:29.139+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:24:29.155+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:24:29.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:24:29.172+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:24:29.172+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:24:29.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.060 seconds
+[2025-01-05T21:25:00.013+0000] {processor.py:186} INFO - Started process (PID=50718) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:25:00.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:25:00.015+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:00.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:25:00.020+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:25:00.037+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:00.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:25:00.053+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:00.053+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:25:00.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.064 seconds
+[2025-01-05T21:26:17.195+0000] {processor.py:186} INFO - Started process (PID=50782) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:26:17.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:26:17.197+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:17.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:26:17.201+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:26:17.222+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:17.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:26:17.241+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:17.241+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:25:28.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.069 seconds
+[2025-01-05T21:25:38.227+0000] {processor.py:186} INFO - Started process (PID=50838) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:25:38.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:25:38.235+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:38.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:25:38.240+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:25:38.262+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:38.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:25:38.280+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:38.280+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:25:38.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.074 seconds
+[2025-01-05T21:25:52.071+0000] {processor.py:186} INFO - Started process (PID=50898) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:25:52.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:25:52.074+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:52.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:25:52.082+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:25:52.098+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:52.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:25:52.115+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:25:52.115+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:25:52.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.069 seconds
+[2025-01-05T21:26:03.247+0000] {processor.py:186} INFO - Started process (PID=50964) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:26:03.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:26:03.249+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:03.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:26:03.254+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:26:03.286+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:03.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:26:03.305+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:03.305+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:26:03.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.078 seconds
+[2025-01-05T21:27:02.267+0000] {processor.py:186} INFO - Started process (PID=51023) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:27:02.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:27:02.269+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:02.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:27:02.278+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:27:02.301+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:02.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:26:13.269+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:13.269+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:26:13.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.088 seconds
+[2025-01-05T21:26:23.303+0000] {processor.py:186} INFO - Started process (PID=51088) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:26:23.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:26:23.305+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:23.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:26:23.310+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:26:23.325+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:23.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:26:23.342+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:23.342+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:26:23.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.062 seconds
+[2025-01-05T21:26:53.789+0000] {processor.py:186} INFO - Started process (PID=51154) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:26:53.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:26:53.791+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:53.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:26:53.795+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:26:53.814+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:53.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:26:53.831+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:26:53.831+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:26:53.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.063 seconds
+[2025-01-05T21:27:24.485+0000] {processor.py:186} INFO - Started process (PID=51220) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:27:24.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:27:24.495+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:24.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:27:24.500+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:27:24.517+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:24.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:27:24.534+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:24.534+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:27:24.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.070 seconds
+[2025-01-05T21:27:38.417+0000] {processor.py:186} INFO - Started process (PID=51280) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:27:38.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:27:38.420+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:38.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:27:38.428+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:27:38.444+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:38.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:27:38.461+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:27:38.461+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:27:38.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.072 seconds
+[2025-01-05T21:28:52.501+0000] {processor.py:186} INFO - Started process (PID=51346) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:28:52.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:28:52.504+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:52.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:28:52.509+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:28:03.467+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:03.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:28:03.485+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:03.485+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:28:03.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.062 seconds
+[2025-01-05T21:28:33.645+0000] {processor.py:186} INFO - Started process (PID=51411) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:28:33.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:28:33.646+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:33.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:28:33.651+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:28:33.673+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:33.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:28:33.692+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:33.692+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:28:33.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.074 seconds
+[2025-01-05T21:29:22.569+0000] {processor.py:186} INFO - Started process (PID=51418) to work on /opt/airflow/dags/works.py
+[2025-01-05T21:29:22.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/works.py for tasks to queue
+[2025-01-05T21:29:22.571+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:29:22.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/works.py
+[2025-01-05T21:29:22.575+0000] {processor.py:925} INFO - DAG(s) 'simple_http_dag' retrieved from /opt/airflow/dags/works.py
+[2025-01-05T21:28:33.535+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:33.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T21:28:33.552+0000] {logging_mixin.py:190} INFO - [2025-01-05T21:28:33.551+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_http_dag to 2025-01-04 00:00:00+00:00, run_after=2025-01-05 00:00:00+00:00
+[2025-01-05T21:28:33.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/works.py took 0.062 seconds

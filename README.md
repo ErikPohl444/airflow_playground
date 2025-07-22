@@ -37,6 +37,8 @@ Clone the repo and explore the sample Airflow DAGs.
 3. Install dependencies: `pip install -r requirements.txt`
 4. Initialize Airflow: `airflow db init`
 5. Create a user and start the webserver/scheduler as per Airflow docs
+6. Confirm $AIRFLOW_HOME is set to the airflow_playground folder.
+7. Check the airflow.cfg file for paths to the dags folder and other paths.
 
 ## Running the tests
 
